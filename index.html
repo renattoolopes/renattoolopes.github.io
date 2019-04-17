@@ -1,1 +1,203 @@
-<h1> Agora foiiii! </h1>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Renato Lopes</title>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ </head>
+<style media="screen">
+
+		li{
+		list-style: none;
+		padding-left: 2%;
+		}
+		.inside{
+		padding-left: 5%;
+		}
+		.outside{
+		list-style-position: outside;
+		padding-left: 0;
+		}
+		li:before {
+		font-family: FontAwesome;
+		display: inline-block;
+		width: 1.3em;
+		}
+		.education::before{
+		content: "\f02d"; /* FontAwesome livro */
+		}
+		.education-activity::before{
+		content: "\f091"; /* FontAwesome trofeu */
+		}
+		.office::before{
+		content: "\f109";
+		}
+		.date-office::before{
+		content: "\f073";
+		}
+		html{
+		font-size: 18px;
+		background-color: #EEEEEE
+		}
+		.color-gray{
+		background-color: #E0E0E0
+		}
+</style>
+<body>
+<div id="main" class="container"  >
+		<div id="line-person" class="row card color-gray">
+			<div class="row col s12">
+				<h3 class="card-title col s12">
+					<i class="fa fa-user fa-2x" aria-hidden="true"></i> Person
+				</h3>
+			</div>
+      <div class="row ">
+          <div class="col s2">
+            	<img src="https://avatars3.githubusercontent.com/u/42044524?s=400&u=cb397dbefb87b6f40405a54fbb55e983b90a616a&v=4" style="width: 140%;border-radius: 90px;">
+          </div>
+          <div class="col s7 offset-s1">
+          		<h3 class="card-title">Personal Information</h3>
+							<li>Name: Renato de Araújo Lopes</li>
+							<li>Age: 25 years</li>
+							<li>Phone: (+55) 92 98208-4255</li>
+							<li>Address: Rua Dallas Q.A - Flores </li>
+          </div>
+      </div>
+		</div>
+		<div id="line-education" class="row card color-gray">
+			<div class="row col s12">
+				<h3 class="card-title col s12">
+					<i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i> Education
+				</h3>
+			</div>
+				<div class="row">
+						<div class="col s6 offset-s3 card">
+							<h5 align="center">FUCAPI</h5>
+						</div>
+				</div>
+				<div class="row col s12">
+						<li class="education">Técnico em Informática - Concluído (2014-2015)</li>
+						<li class="education-activity inside">Maratona de programação - 2º Lugar</li>
+				</div>
+				<div class="row col s12">
+						<li class="education">Sistema de Informação - Cursando(7º Período) (2016-2020)</li>
+				</div>
+
+    </div>
+		<div id="line-work" class="row card color-gray">
+				<div class="row col s12">
+					<h3 class="card-title col s12">
+						<i class="fa fa-briefcase fa-2x" aria-hidden="true"></i> Works and Projects
+					</h3>
+				</div>
+				<div class="row">
+						<div class="col s6 offset-s3 card">
+							<h5 align="center">WOW Mágicas & Pegadinha</h5>
+						</div>
+				</div>
+				<div class="row col s12">
+					<li class="office ">Vendedor</li>
+					<li class="date-office inside">5 Meses</li>
+				</div>
+				<div class="row">
+						<div class="col s6 offset-s3 card">
+							<h5 align="center">OCA - Viagens e Turismo</h5>
+						</div>
+				</div>
+				<div class="row col s12">
+					<li class="office ">Auxiliar Administrativo</li>
+					<li class="date-office inside">3 Anos</li>
+				</div>
+				<div class="row">
+						<div class="col s6 offset-s3 card">
+							<h5 align="center">Office Data Tecnologia</h5>
+						</div>
+				</div>
+				<div class="row col s12">
+					<li class="office ">Estagiário (Desenvolvimento e Suporte)</li>
+					<li class="date-office inside">1 Ano</li>
+				</div>
+				<div class="row col s12">
+					<li class="office ">Programador Júnior</li>
+					<li class="date-office inside">1 Ano e 6 Meses</li>
+				</div>
+				<div class="row">
+					<div class="col s6 offset-s3 card">
+						<h5 align="center">Instituto Eldorado - Apple Developer Academy</h5>
+					</div>
+			</div>
+				<div class="row col s12">
+					<li class="office ">Desenvolvedor iOS</li>
+					<li class="date-office inside">9 Meses (Atualmente)</li>
+				</div>
+		</div>
+		<div id="line-skills" class="row card color-gray">
+				<div class="row col s12">
+					<h3 class="card-title col s12">
+						<i class="fa fa-code fa-2x" aria-hidden="true"></i> Skills
+					</h3>
+				</div>
+				<div class="row">
+						<div class="col s6 offset-s3 card">
+							<h5 align="center">Linguagens</h5>
+						</div>
+				</div>
+				<div class="row col s12">
+					<li>Swift</li>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>PostgreSQL</li>
+				</div>
+				<div class="row">
+						<div class="col s6 offset-s3 card">
+							<h5 align="center">Controle de versão</h5>
+						</div>
+				</div>
+				<div class="row col s12">
+					<li>Git</li>
+				</div>
+				<div class="row">
+						<div class="col s6 offset-s3 card">
+							<h5 align="center">Frameworks e Plataformas</h5>
+						</div>
+				</div>
+				<div class="row col s12">
+					<li>CloudKit</li>
+					<li>Firebase</li>
+					<li>Bootstrap</li>
+					<li>Laravel</li>
+				</div>
+
+		</div>
+		<div id="line-social" class="row card color-gray">
+				<div class="row col s12">
+					<h3 class="card-title col s12">
+						<i class="fa fa-globe fa-2x" aria-hidden="true"></i> Social
+					</h3>
+				</div>
+				<div class="row col s12">
+					<i class="fa fa-facebook-official col s12" aria-hidden="true">
+						<a class=" black-text" href="https://www.facebook.com/renatollopes"> /renatollopes</a>
+					</i>
+				</div>
+				<div class="row col s12">
+					<i class="fa fa-linkedin  col s12" aria-hidden="true">
+						<a class=" black-text" href="https://www.linkedin.com/in/renattoolopes"> Renato Lopes</a>
+					</i>
+				</div>
+				<div class="row col s12">
+					<i class="fa fa-envelope-o  col s12" aria-hidden="true">
+						<a class=" black-text" href="#">  renattoolopes@gmail.com</a>
+					</i>
+				</div>
+				<div class="row col s12">
+					<i class="fa fa-github  col s12" aria-hidden="true">
+						<a class=" black-text" href="https://github.com/renattoolopes"> /renattoolopes</a>
+					</i>
+				</div>
+		</div>
+</div>
+</body>
+</html>
